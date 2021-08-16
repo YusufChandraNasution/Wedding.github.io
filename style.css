@@ -56,7 +56,7 @@ button#play{
     background-size: cover;
     position: fixed;
     top: 32px;
-    right: 15px;
+    left: 20px;
     z-index: 99;
 }
 /* End Audio */
@@ -115,6 +115,7 @@ section#home .borderBot img:last-child{
 .text p:last-child{
     margin-bottom: 0;
     font-family: 'Courgette', cursive;
+    font-size: 19px;
 }
 section#home .borderBot{
     margin-top: -211px;
@@ -548,6 +549,12 @@ section#wish .borderTop img:last-child{
     border-radius: 6px;
     box-sizing: border-box;
 }
+.pyb{
+    position: absolute;
+    left: 45%;
+    right: 0;
+    bottom: -50px;
+}
 
 /* End Wish + Story */
 
@@ -618,16 +625,17 @@ section#wish .borderTop img:last-child{
         clear: both;
         position: relative;
         text-align: center;
-        top: -133px;
+        top: -89px;
     }
     .text p:first-child{
         font-family: 'Dancing Script', cursive;
-        font-size: 58px;
-        margin-left: 31px;
+        font-size: 50px;
+        margin-left: 10px;
     }
     .text p:last-child{
-        margin-bottom: 0;
         font-family: 'Courgette', cursive;
+        position: relative;
+        top: 116px;
     }
     /* End Home */
     /* Couple */
@@ -729,5 +737,10 @@ section#wish .borderTop img:last-child{
     /* End Wish + story */
     .bot{
         height: 56px;
+    }
+    .pyb{
+        left: 33.5%;
+        right: 0;
+        bottom: 141px;
     }
 }
