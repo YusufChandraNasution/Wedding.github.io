@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+body {
+    background-image: url(background/wall4.png);
+    width: 100%;
+    overflow-x: hidden;
+}
+/* Navbar */
+nav {
+    overflow: hidden;
+    height: 56px;
+    background-color: rgba(240, 246, 247, .5);
+}
+nav h2 {
+    line-height: 56px;
+    display: inline-block;
+    margin-left: 40px;
+    color: rgb(52, 58, 64);
+}
+nav ul {
+    margin-left: 40px;
+    margin-right: 40px;
+    float: right;
+}
+nav ul li {
+    text-align: center;
+    line-height: 56px;
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(52, 58, 64);
+}
+nav ul li a:focus {
+    background-color: rgb(52, 58, 64);
+}
+/* End Navbar */
+
+/* Audio */
+button#play{
+    border-style: none;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#play{
+    background-image: url(Background/volume.png);
+    background-size: cover;
+    position: fixed;
+    top: 32px;
+    right: 15px;
+    z-index: 99;
+}
+/* End Audio */
+
+/* Home */
+section#home .borderTop img:first-child{
+    width: 240px;
+    clear: both;
+}
+section#home .borderTop img:last-child{
+    clear: both;
+    width: 220px;
+    float: right;
+}
+
+section#home .borderBot img:first-child{
+    clear: both;
+    width: 260px;
+    margin-top: 3.5px;
+}
+section#home .borderBot img:last-child{
+    margin-top: 3.5px;
+    margin-right: -3.6px;
+    float: right;
+    width: 180px;
+    padding-top: 22px;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    clear: both;
+    top: -25px;
+}
+.main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    right: 0;
+}
+.main img{
+    width: 550px;
+}
+.text{
+    clear: both;
+    position: relative;
+    text-align: center;
+    top: -270px;
+}
+.text p:first-child{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin-left: 38px;
+}
+.text p:last-child{
+    margin-bottom: 0;
+    font-family: 'Courgette', cursive;
+}
+section#home .borderBot{
+    margin-top: -211px;
+}
+
+/* End Home */
+
+/* Couple */
+
+.bingkai {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0 5px 8px 0px rgba(0, 0, 0, 0.7);
+    border: 4px solid white;
+}
+section#couple, section#event, section#gallery {
+    clear: both;
+    margin: -3.5px;
+}
+section#couple .borderTop img:first-child,section#gallery .borderTop img:first-child{
+    width: 260px;
+}
+section#couple .borderTop img:last-child, section#gallery .borderTop img:last-child{
+    float: right;
+    width: 180px;
+}
+section#couple .borderBot img:first-child, section#gallery .borderBot img:first-child{
+    width: 220px;
+    clear: both;
+    margin-top: 4px;
+}
+section#couple .borderBot img:last-child, section#gallery .borderBot img:last-child{
+    width: 220px;
+    float: right;
+    margin-right: -2px;
+}
+#couple.couple p:first-child{
+    font-family: 'Style Script', cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+/* End Couple */
+
+/* Event */
+
+section#event .borderTop img:first-child{
+    width: 220px;
+    clear: both;
+}
+section#event .borderTop img:last-child{
+    float: right;
+    width: 220px;
+}
+
+section#event .borderBot img:first-child,section#wish .borderBot img:first-child{
+    clear: both;
+    width: 263px;
+    margin-top: 3.5px;
+}
+section#event .borderBot img:last-child, section#wish .borderBot img:last-child{
+    margin-top: 31px;
+    float: right;
+    width: 180px;
+    clear: both;
+}
+.cardEvent {
+    margin: 0 15%;
+}
+.row {
+    margin: 0 -5px;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.column:first-child td:nth-child(even){
+    text-align: left;
+}
+.column2 td:nth-child(odd){
+    text-align: right;
+}
+.map iframe{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* End Event */
+
+/* Gallery */
+section#gallery .borderTop, section#gallery .borderBot{
+    clear: both;
+}
+
+.container{
+    clear: both;
+    margin: 0 10%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    margin: auto;
+}
+.foto1, .div2{
+    display: flex;
+    height: 400px;
+}
+.foto1 a{
+    width: 50%;
+    background-image: url(Galery/SJ_00328.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+a:hover .div1{
+    opacity: .5;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.div21{
+    background-image: url(Galery/SJ_00112.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.div22{
+    background-image: url(Galery/SJ_00123-1.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+/* Overley */
+.overlay{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99;
+    text-align: center;
+    padding: 50px 0;
+}
+.overlay:target{
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+}
+.overlay img{
+    max-height: 100%;
+
+}
+
+/* End Overley */
+.foto2{
+    display: flex;
+    height: 250px;
+}
+.foto2-thumb1{
+    width: 50%;
+    background-image: url(Galery/SJ_00334\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto2-thumb2{
+    width: 50%;
+    background-image: url(Galery/SJ_00397\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto2-thumb3{
+    width: 100%;
+    background-image: url(Galery/SJ_09990\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto3 {
+    display: flex;
+    height: 250px;
+}
+.foto3 > *{
+    background-size: cover;
+    background-position: center;
+}
+.foto3-thumb1{
+    width: 100%;
+    background-image: url(Galery/SJ_09585\ copy.jpg);
+    background-position:top;
+}
+.foto3-thumb2{
+    width: 100%;
+    background-image: url(Galery/SJ_09642\(2\).jpg);
+    background-position: center;
+}
+.foto3-thumb3{
+    width: 100%;
+    background-image: url(Galery/SJ_09745\(1\).jpg);
+    background-position: center;
+}
+.foto3-thumb4{
+    width: 100%;
+    background-image: url(Galery/msjd.jpg);
+    background-position: center;
+}
+
+.foto4 {
+    display: flex;
+    height: 250px;
+}
+.foto4 > *{
+    background-size: cover;
+    background-position: center;
+}
+.foto4-thumb1{
+    width: 100%;
+    background-image: url(Galery/SJ_09556.jpg);
+    background-position:top;
+}
+.foto4-thumb2{
+    width: 50%;
+    background-image: url(Galery/SJ_09414.jpg);
+    background-position: center;
+}
+.foto4-thumb3{
+    width: 50%;
+    background-image: url(Galery/SJ_09404.jpg);
+    background-position: center;
+}
+.foto5 {
+    display: flex;
+    height: 250px;
+}
+.foto5 > *{
+    background-size: cover;
+    background-position: center;
+}
+.foto5-thumb1{
+    width: 50%;
+    background-image: url(Galery/SJ_09315\(1\).jpg);
+}
+.foto5-thumb2{
+    width: 50%;
+    background-image: url(Galery/SJ_09033\(2\).jpg);
+}
+.foto5-thumb3{
+    width: 100%;
+    background-image: url(Galery/SJ_09193.jpg);
+}
+
+.foto6 {
+    display: flex;
+    height: 250px;
+}
+.foto6 > *{
+    background-size: cover;
+    background-position: center;
+}
+.foto6-thumb1{
+    width: 100%;
+    background-image: url(Galery/SJ_08966\(1\).jpg);
+}
+.foto6-thumb2{
+    width: 100%;
+    background-image: url(Galery/SJ_09321\(1\).jpg);
+}
+.foto6-thumb3{
+    width: 100%;
+    background-image: url(Galery/SJ_09356\(1\).jpg);
+}
+.foto6-thumb4{
+    width: 100%;
+    background-image: url(Galery/SJ_09378\(1\).jpg);
+}
+.foto7 {
+    display: flex;
+    height: 300px;
+}
+.foto7 > *{
+    background-size: cover;
+    background-position: center;
+}
+.foto7-thumb1{
+    width: 100%;
+    flex: 3;
+    background-image: url(Galery/cetak\ 2.jpg);
+}
+.foto7-thumb2{
+    width: 100%;
+    flex: 1;
+    background-image: url(Galery/SJ_09889.jpg);
+}
+.foto7 {
+    display: flex;
+    height: 300px;
+}
+.foto7 > *{
+    background-size: cover;
+    background-position: center;
+}
+.foto7-thumb1{
+    width: 100%;
+    flex-grow: 2;
+    background-image: url(Galery/cetak\ 2.jpg);
+}
+.foto7-thumb2{
+    width: 100%;
+    flex-grow: 1;
+    background-image: url(Galery/SJ_09889.jpg);
+}
+.foto8 {
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+}
+.foto8 > *{
+    background-size: cover;
+    background-position: center;
+}
+.foto8-thumb1{
+    width: 100%;
+    flex: 1;
+    background-image: url(Galery/SJ_09929.jpg);
+}
+.foto8-thumb2{
+    width: 100%;
+    flex: 1;
+    background-image: url(Galery/SJ_09883.jpg);
+}
+.foto8-thumb3{
+    width: 100%;
+    flex: 1;
+    background-image: url(Galery/SJ_09945.jpg);
+}
+/* End Gallery */
+
+
+/* Wish + Story */
+.container1{
+    padding: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 95%;
+    margin-top: 46px;
+}
+section#wish .borderTop img:first-child{
+    width: 215px;
+}
+section#wish .borderTop img:last-child{
+    float: right;
+    width: 213px;
+}
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.container2::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -14px;
+    background-color: white;
+    border: 4px solid #e03a5e;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.container2 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.left {
+    left: 0;
+}
+.right {
+    left: 50%;
+}
+.right::after {
+    left: -16px;
+}
+.content {
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+.content {
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    font-family: dosis;
+}
+.bg1content {
+    text-align: center;
+    background-image: url("https://nikahankami.com/assets/bgatexture.jpg");
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* End Wish + Story */
+
+@media(max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    /* Navbar */
+    nav {
+        position: relative;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        z-index: 2;
+    }
+    nav h2{
+        display: none;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: auto;
+    }
+    nav ul li{
+        margin: 0;
+    }
+    /* Home */
+    section#couple .borderTop img:last-child, section#gallery .borderTop img:last-child{
+        width: 120px;
+    }
+    section#home .borderTop img:last-child, section#couple .borderTop img:first-child, section#home .borderTop img:first-child, section#gallery .borderTop img:first-child{
+        width: 170px;
+    }
+    
+    section#home .borderBot img:first-child{
+        width: 170px;
+        margin-top: 11.5px;
+    }
+    section#home .borderBot img:last-child{
+        width: 120px;
+    }
+    section#home .borderBot{
+        margin: 0;
+    }
+    .main {
+        position: relative;
+        text-align: center;
+        clear: both;
+        margin: 0;
+        top: 80px;
+    }
+    .main img{
+        width: 442px;
+        margin-left: -25px;
+    }
+    .main h2{
+        position: absolute;
+        top: -50px;
+        left: 0;
+        right: 0;
+    }
+    .text{
+        clear: both;
+        position: relative;
+        text-align: center;
+        top: -133px;
+    }
+    .text p:first-child{
+        font-family: 'Dancing Script', cursive;
+        font-size: 58px;
+        margin-left: 31px;
+    }
+    .text p:last-child{
+        margin-bottom: 0;
+        font-family: 'Courgette', cursive;
+    }
+    /* End Home */
+    /* Couple */
+    
+    section#couple .borderBot img:first-child{
+        width: 172px;
+    }
+    section#couple .borderBot img:last-child, section#gallery .borderBot img:last-child{
+        width: 171px;
+        margin-top: 3px;
+    }
+    .pembuka{
+        padding: 10px 36px;
+    }
+    /* End Couple */
+    
+    /* Event */
+    .cardEvent {
+        margin: 0 2%;
+        clear: both;
+    }
+    .map iframe{
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    section#event .borderTop img:first-child, section#wish .borderTop img:first-child{
+        width: 172px;
+    }
+    section#event .borderTop img:last-child, section#wish .borderTop img:last-child{
+        width: 170px;
+    }
+    section#event .borderBot img:first-child, section#wish .borderBot img:first-child{
+        width: 170px;
+        margin-left: 2px;
+    }
+    section#event .borderBot img:last-child, section#wish .borderBot img:last-child{
+        width: 120px;
+        margin-top: 18px;
+    }
+    /* End Event */
+
+    /* Gallery */
+    section#gallery .borderBot img:last-child, section#gallery .borderBot img:first-child{
+        width: 177px;
+        margin-bottom: -2px;
+    }
+    .container, .container1{
+        max-width: 95%;
+    }
+    .foto1,.foto2, .foto3, .foto4, .foto5, .foto6,.foto7{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        height: 400px;
+    }
+    .foto7{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        height: 300px;
+    }
+    .foto8{
+        height: 250px;
+    }
+    .foto2-thumb1, .foto2-thumb2,.foto3>*, .foto4-thumb2, .foto4-thumb3, .foto5-thumb2, .foto5-thumb1, .foto6>*, .foto7>*{
+        width: 50%;
+    }
+    .foto4-thumb1, .foto2-thumb3, .foto5-thumb3{
+        width: 100%;
+    }
+    .foto7-thumb1, .foto7-thumb2{
+        flex-grow: 1;
+    }
+    /* END Gallery */
+
+    /* Wish + story */
+    .container2 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    .timeline::after {
+        left: 31px;
+    }
+    .timeline {
+        position: relative;
+        max-width: 98%;
+        margin: 0 auto;
+    }
+    .left::after, .right::after {
+        left: 15px;
+    }
+    .right {
+        left: 0%;
+    }
+    /* End Wish + story */
+    .bot{
+        height: 56px;
+    }
+}
