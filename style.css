@@ -52,10 +52,10 @@ button#play{
     background-color: transparent;
 }
 #play{
-    background-image: url(Background/volume.png);
+    background-image: url(Background/mute.png);
     background-size: cover;
     position: fixed;
-    top: 32px;
+    top: 40px;
     left: 20px;
     z-index: 99;
 }
@@ -551,7 +551,7 @@ section#wish .borderTop img:last-child{
 }
 .pyb{
     position: absolute;
-    left: 45%;
+    left: 43.5%;
     right: 0;
     bottom: -50px;
 }
@@ -739,8 +739,16 @@ section#wish .borderTop img:last-child{
         height: 56px;
     }
     .pyb{
+        left: 36.5%;
+        bottom: 50px;
+    }
+    /* #play{
+        background-image: url(Background/mute.png);
+    } */
+}
+@media(max-width: 340px){
+    .pyb {
         left: 33.5%;
-        right: 0;
-        bottom: 141px;
+        bottom: 5px;
     }
 }
