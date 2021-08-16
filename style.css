@@ -4,7 +4,7 @@
     clear: both;
 }
 body {
-    background-image: url(background/wall4.png);
+    background-image: url(Background/wall4.png);
     width: 100%;
     overflow-x: hidden;
 }
@@ -605,7 +605,7 @@ section#wish .borderTop img:last-child{
         top: 80px;
     }
     .main img{
-        width: 442px;
+        width: 107%;
         margin-left: -25px;
     }
     .main h2{
