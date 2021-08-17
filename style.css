@@ -746,9 +746,9 @@ section#wish .borderTop img:last-child{
         background-image: url(Background/mute.png);
     } */
 }
-@media(max-width: 340px){
+@media(min-width: 340px){
     .pyb {
         left: 33.5%;
-        bottom: 5px;
+        bottom: 67px;
     }
 }
