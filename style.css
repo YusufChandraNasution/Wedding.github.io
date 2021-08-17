@@ -62,6 +62,9 @@ button#play{
 /* End Audio */
 
 /* Home */
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
 section#home .borderTop img:first-child{
     width: 240px;
     clear: both;
@@ -551,7 +554,7 @@ section#wish .borderTop img:last-child{
 }
 .pyb{
     position: absolute;
-    left: 43.5%;
+    left: 44.5%;
     right: 0;
     bottom: -50px;
 }
@@ -625,7 +628,7 @@ section#wish .borderTop img:last-child{
         clear: both;
         position: relative;
         text-align: center;
-        top: -89px;
+        top: -129px;
     }
     .text p:first-child{
         font-family: 'Dancing Script', cursive;
@@ -635,7 +638,7 @@ section#wish .borderTop img:last-child{
     .text p:last-child{
         font-family: 'Courgette', cursive;
         position: relative;
-        top: 116px;
+        top: 85px;
     }
     /* End Home */
     /* Couple */
@@ -738,17 +741,7 @@ section#wish .borderTop img:last-child{
     .bot{
         height: 56px;
     }
-    .pyb{
-        left: 36.5%;
-        bottom: 50px;
-    }
     /* #play{
         background-image: url(Background/mute.png);
     } */
-}
-@media(min-width: 340px){
-    .pyb {
-        left: 33.5%;
-        bottom: 67px;
-    }
 }
