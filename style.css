@@ -62,9 +62,7 @@ button#play{
 /* End Audio */
 
 /* Home */
-span{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 section#home .borderTop img:first-child{
     width: 240px;
     clear: both;
@@ -95,7 +93,8 @@ section#home .borderBot img:last-child{
     top: -25px;
 }
 .main h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'STIX Two Text', serif;
+    font-weight: bold;
     position: absolute;
     top: -80px;
     left: 0;
@@ -115,10 +114,14 @@ section#home .borderBot img:last-child{
     font-size: 60px;
     margin-left: 38px;
 }
-.text p:last-child{
-    margin-bottom: 0;
+.text p:nth-child(2){
     font-family: 'Courgette', cursive;
-    font-size: 19px;
+    font-size: 20px;
+}
+.text p:nth-child(3){
+    font-family: 'Playball', cursive;
+    font-size: 24px;
+    padding-top: 140px;
 }
 section#home .borderBot{
     margin-top: -211px;
@@ -635,10 +638,16 @@ section#wish .borderTop img:last-child{
         font-size: 50px;
         margin-left: 10px;
     }
-    .text p:last-child{
+    .text p:nth-child(2){
         font-family: 'Courgette', cursive;
         position: relative;
         top: 85px;
+    }
+    .text p:nth-child(3){
+        position: relative;
+        font-size: 17px;
+        top: 80px;
+        padding-top: 0;
     }
     /* End Home */
     /* Couple */
